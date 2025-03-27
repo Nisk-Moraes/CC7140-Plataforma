@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b4a58894549bbef4b8e7186f862845b8
+guid: a213109a95b56064e84a87801ddfd890
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4286279061180403105
-    second: kirby-abyys_0
+      213: -8817426130257391540
+    second: eyes_0
+  - first:
+      213: 3060230111996817670
+    second: eyes_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +49,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kirby-abyys_0
+      name: eyes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 281
+        x: 39
+        y: 53
+        width: 34
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +117,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ad4ad1b81ceb7b30800000000000000
-      internalID: 4286279061180403105
+      spriteID: c40d2c8b6a532a580800000000000000
+      internalID: -8817426130257391540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eyes_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 54
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6013684b21f187a20800000000000000
+      internalID: 3060230111996817670
       vertices: []
       indices: 
       edges: []
@@ -123,14 +147,16 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eyes_0: -8817426130257391540
+      eyes_1: 3060230111996817670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

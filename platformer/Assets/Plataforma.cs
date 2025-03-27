@@ -5,11 +5,10 @@ using UnityEngine;
 public class Plataforma : MonoBehaviour
 {
     // Start is called before the first frame update
-    
+    public float tempomax = 1.0f;
     public float velocidade = 1.0f;
     public float vel_multiplier = 1.0f;
     private float time = 0.0f;
-    public float tempomax = 1.0f;
     public Rigidbody2D rb2d;
 
     void Start()
