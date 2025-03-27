@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3f1dd45c76a6b38499e6655ccaf01dc2
+guid: b4a58894549bbef4b8e7186f862845b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6138671772646029227
-    second: square-kirby-pixel-custom-progress-bar-m_0
+      213: 4286279061180403105
+    second: kirby-abyys_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: square-kirby-pixel-custom-progress-bar-m_0
+      name: kirby-abyys_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 18
-        width: 171
-        height: 141
+        x: 0
+        y: 0
+        width: 500
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55847befb8e0fcaa0800000000000000
-      internalID: -6138671772646029227
+      spriteID: 1ad4ad1b81ceb7b30800000000000000
+      internalID: 4286279061180403105
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      square-kirby-pixel-custom-progress-bar-m_0: -6138671772646029227
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
