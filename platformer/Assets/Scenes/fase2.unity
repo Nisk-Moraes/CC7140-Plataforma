@@ -267,9 +267,12 @@ MonoBehaviour:
   dir: 100
   esq: 97
   pulo: 32
+  correr: 304
   rb2d: {fileID: 0}
   tampul: 10
+  maxpulos: 1
   velocidade: 2
+  velcorrer: 4
 --- !u!50 &544392095
 Rigidbody2D:
   serializedVersion: 4
@@ -13357,6 +13360,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b75b7063f3fac6d4ba0d1998da84ed60, type: 3}
+--- !u!1001 &1608697669630558360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954086519063587390, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016276442608512676, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
+      propertyPath: m_Name
+      value: Inimigo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b318382de99c64744a482c6abd58aa3b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -13376,3 +13436,4 @@ SceneRoots:
   - {fileID: 1661756639}
   - {fileID: 1573025574}
   - {fileID: 948137108}
+  - {fileID: 1608697669630558360}

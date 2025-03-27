@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kirby-abyys_0: 4286279061180403105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

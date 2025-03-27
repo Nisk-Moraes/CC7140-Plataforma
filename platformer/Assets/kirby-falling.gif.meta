@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kirby-falling_0: 8132356451220733408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
