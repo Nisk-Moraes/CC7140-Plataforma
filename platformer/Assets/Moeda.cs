@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Moeda : MonoBehaviour
 {
@@ -13,7 +15,13 @@ public class Moeda : MonoBehaviour
         // Verifique se o objeto que entrou em contato tem o tag "Player"
         if (other.CompareTag("Player"))
         {
-            GameManager.Pontuacao += 10;
+            if (SceneManager.GetActiveScene().name == "fase1"){
+                GameManager.Pontuacaolvl1 += 10;
+            }
+            else{
+                GameManager.Pontuacaolvl2 += 10;
+            }
+            
             Destroy(gameObject);
         }
         

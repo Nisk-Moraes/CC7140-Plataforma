@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class restart : MonoBehaviour
 {
-    public string nextSceneName = "fase1";
+    public string nextSceneName = "fase2";
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +17,7 @@ public class restart : MonoBehaviour
     {
         //Wait for 4 seconds
         yield return new WaitForSeconds(4);
+        GameManager.Pontuacaolvl2 = 0;
         SceneManager.LoadScene(nextSceneName);
 
     }

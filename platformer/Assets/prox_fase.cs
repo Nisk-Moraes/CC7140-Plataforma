@@ -17,6 +17,7 @@ public class prox_fase : MonoBehaviour
         {
             // Carrega a próxima cena
             SceneManager.LoadScene(nextSceneName);
+
         }
     }
 

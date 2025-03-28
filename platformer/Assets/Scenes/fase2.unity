@@ -12490,7 +12490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fcce28caee25f4f965c08ff02a2147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: vitoria
+  nextSceneName: Dialogo
 --- !u!61 &1153548505
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13233,7 +13233,7 @@ GameObject:
   - component: {fileID: 1792478980}
   - component: {fileID: 1792478979}
   m_Layer: 0
-  m_Name: gui
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
