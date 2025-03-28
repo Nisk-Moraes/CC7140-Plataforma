@@ -60,7 +60,7 @@ public class movJog : MonoBehaviour
     {
         japulou = 0;
         if (collision.collider.CompareTag("Inimigo")){
-            print("COLIDIU COM O inimigo!");
+            // print("COLIDIU COM O inimigo!");
             if(ejetado == 0)
             ejetado = 1;
             EjetaPlayer();
@@ -71,7 +71,22 @@ public class movJog : MonoBehaviour
         var vel = rb2d.velocity;
         vel.x *= -5;
         vel.y *= -5;
-        
+        if(vel.x < 2 && vel.x > 0)
+        {
+            print("vel positiva: " + vel.x);
+            vel.x = 10f * -1; 
+        }
+        if(vel.x > -2 && vel.x < 0)
+        {
+            print("vel neg: " + vel.x);
+            vel.x = 10f;
+        }
+        if(vel.x == 0)
+        {
+            print("Estacionado: "+vel.x+" "+vel.y);
+            vel.y = 10f;
+            vel.x = -5f;
+        }
         rb2d.velocity = vel;
     }
     // void OnCollisionEnter2D(Collision2D other) {
