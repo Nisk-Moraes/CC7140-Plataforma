@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
+using System;
 public class Dialogo : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
@@ -39,11 +40,24 @@ public class Dialogo : MonoBehaviour
         index = 0;
         StartCoroutine(TypeLine());
     }
-    IEnumerator TypeLine(){
-        foreach(char c in lines [index].ToCharArray()){
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
+    IEnumerator TypeLine(string custom = null,string teleporte = null){
+        if (custom == null){
+            foreach(char c in lines [index].ToCharArray()){
+                textComponent.text += c;
+                yield return new WaitForSeconds(textSpeed);
+            }
+
         }
+        else{
+            textComponent.text = string.Empty;
+            foreach(char c in custom.ToCharArray()){
+                textComponent.text += c;
+                yield return new WaitForSeconds(textSpeed);
+            }
+            SceneManager.LoadScene(teleporte);
+
+        }
+       
     }
     void NextLine(){
         if (index < lines.Length -1 ){
@@ -64,11 +78,13 @@ public class Dialogo : MonoBehaviour
         }
     }
     public void EscErrada(){
-        print(":O");
+        StartCoroutine(TypeLine("TOMA NO C-","derrota"));
+        
+        
     }
     public void EscCorreta(){
+        StartCoroutine(TypeLine("Eba! Tem como eu comprar minhas bolsas agora!","vitoria"));
         
-        print(":-X");
 
     }
     public void trapaca(){
