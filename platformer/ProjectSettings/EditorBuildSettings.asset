@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/vitoria.unity
     guid: ce06c1a529072e14190243d0a89e9d0d
+  - enabled: 1
+    path: Assets/Scenes/Dialogo.unity
+    guid: fe27e086e0b559c47ad90d10e94105ba
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
